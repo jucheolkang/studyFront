@@ -22,7 +22,7 @@ function displayMenus(menus) {
         const menuItem = document.createElement('div');
         menuItem.className = 'menu-item';
         menuItem.innerHTML = `
-            <span>${menu.name} - $${menu.price}</span>
+            <span>${menu.name} - ₩${menu.price}</span>
             <div>
                 <button onclick="editMenu('${menu.menuId}')">Edit</button>
                 <button onclick="deleteMenu('${menu.menuId}')">Delete</button>
